@@ -1,0 +1,145 @@
+body{
+		margin: 0;
+		padding: 0;
+		font-family: Verdana,Geneva,sans-serif;
+		font-size: 15px;
+		background: url(../img/gravel.png);
+        
+	}
+	header{
+		height: 100px;
+		
+		background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+		width: 100%;
+		top: 0;
+	}
+
+	.logo{
+		float: left;
+		margin-left: 10%;
+	}
+	.logo a{
+		color: #f20000;
+		font-size: 30px;
+		margin-top: 35px;
+		display: block;
+		text-decoration: none;
+	}
+	.menu{
+		float: right;
+		margin-right: 10%;
+		margin-top: 35px;
+	}
+	.menu ul{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+	.menu ul li{
+		float: left;
+		padding: 10px;
+
+	}
+	.menu ul li a{
+		color: #fff;
+		text-decoration: none;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+ 
+    .menu ul li a:hover{color: green;}
+
+	#mark{color: red;}
+
+	div#sidebar{
+		background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+	}
+    
+
+	div#sidebar,header{
+		position: relative;
+	}
+
+	div#sidebar,div.slider{
+		position: absolute;
+	}
+
+	div#main,div#quote{
+		position: relative;
+	}
+
+	div.slider{
+		width: 70%;
+	}
+     
+    div#content,div#quote{
+    	position: absolute;
+    } 
+
+
+	.wrapper{
+		width: 70%;
+		padding-left: 230px;
+		padding-right: 180px;
+		top: 0px;
+		padding-bottom: 100px;
+	}
+
+	#quote{
+		width: 200px;
+		height: 200px;
+		font-size: 28px;
+		margin-left: 1350px; 	
+		top: 250px;
+		background: url(../img/leaves-pattern.png);
+		border: 1px solid white;
+		border-radius: 5px;
+		box-shadow: 10px 10px 10px 0px;
+		font-family: Georgia;
+		text-shadow: 10px 10px 10px 10px;
+	}
+table tr td{text-align: justify;}
+table tr td li{list-style: none;}
+
+td{
+	padding: 10px;
+}
+
+
+	footer{
+		
+		width: 100%;
+		height: 180px;
+		background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+		bottom: 0;
+		text-align: center;
+	}
+	.copy p{
+		margin: 0;
+		padding: 0;
+		line-height: 60px;
+		color: #fff
+	}
+
